@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RoboticGrid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8BC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/RoboticGrid.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\99-бшнд\RoboticGrid\RoboticGridView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8BC.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8BD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RoboticGrid.pdb" /debug /machine:I386 /out:"Debug/RoboticGrid.exe" /pdbtype:sept 
+".\Debug\Analyse_RouteAnalyse.obj"
+".\Debug\Analyse_RouteNode.obj"
+".\Debug\Analyse_Way.obj"
+".\Debug\Analyse_WorkSpace.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Map_Grid.obj"
+".\Debug\Map_GridObj.obj"
+".\Debug\Map_Hex.obj"
+".\Debug\Map_HexObj.obj"
+".\Debug\Map_LineElement.obj"
+".\Debug\Map_Map.obj"
+".\Debug\Map_PointElement.obj"
+".\Debug\Map_PolygonElement.obj"
+".\Debug\PublicFunction.obj"
+".\Debug\RoboticGrid.obj"
+".\Debug\RoboticGridDoc.obj"
+".\Debug\RoboticGridView.obj"
+".\Debug\SetSizeDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RoboticGrid.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8BD.tmp"
+<h3>Output Window</h3>
+Compiling...
+RoboticGridView.cpp
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBAB.tmp" with contents
+[
+/nologo /o"Debug/RoboticGrid.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Analyse_RouteAnalyse.sbr"
+".\Debug\Analyse_RouteNode.sbr"
+".\Debug\Analyse_Way.sbr"
+".\Debug\Analyse_WorkSpace.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Map_Grid.sbr"
+".\Debug\Map_GridObj.sbr"
+".\Debug\Map_Hex.sbr"
+".\Debug\Map_HexObj.sbr"
+".\Debug\Map_LineElement.sbr"
+".\Debug\Map_Map.sbr"
+".\Debug\Map_PointElement.sbr"
+".\Debug\Map_PolygonElement.sbr"
+".\Debug\PublicFunction.sbr"
+".\Debug\RoboticGrid.sbr"
+".\Debug\RoboticGridDoc.sbr"
+".\Debug\RoboticGridView.sbr"
+".\Debug\SetSizeDlg.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBAB.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+RoboticGrid.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
